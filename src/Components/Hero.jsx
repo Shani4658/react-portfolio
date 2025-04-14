@@ -3,7 +3,8 @@ import {NAME} from '../constants/Constant'
 import { ROLE } from '../constants/Constant'
 import { HERO_CONTENT } from '../constants'
 // import profile_img from '../assets/Shani.jpg'
-import { PROFILE_IMG_URL } from '../constants/Constant'
+// import { PROFILE_IMG_URL } from '../constants/Constant'
+import PROFILE_IMAGE from '../assets/shani3.png'
 import { motion } from "motion/react"
 const Hero = () => {
   const container = (delay) => ({
@@ -44,7 +45,7 @@ const Hero = () => {
                     initial = {{x:100 , opacity:0}}
                     animate = {{x:0 , opacity:1}}
                     transition={{duration: 1 , delay: 1.2}}
-                  className='rounded-lg object-fit w-96 h-auto shadow-gradient-blue-black' src={PROFILE_IMG_URL} alt="Shani" />
+                  className='object-fit w-96 h-auto ' src={PROFILE_IMAGE} alt="Shani" />
               </div>
             </div>
         </div>
