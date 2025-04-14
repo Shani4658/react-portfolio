@@ -6,7 +6,7 @@ import { FaSquareXTwitter } from 'react-icons/fa6'
 import { FaInstagram } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 import { GITHUB_URL, LINKEDIN_URL } from '../constants/Constant'
-import Resume from '../assets/Shani_Resume.pdf'
+import Resume from '../assets/Shani_Latest.pdf'
 const Navbar = () => {
   return (
     <nav className=' flex justify-between mb-20 py-6 text-white'>

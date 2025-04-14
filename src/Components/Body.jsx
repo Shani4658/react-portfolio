@@ -16,7 +16,6 @@ const Body = () => {
           <Hero />
           <About />
           <Technology />
-          <Experience />
           <Project />
           <Contact />
         </div>
